@@ -1,0 +1,76 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="native:saveselectedfeatures_1" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option name="alg_config"/>
+      <Option value="native:saveselectedfeatures" name="alg_id" type="QString"/>
+      <Option value="Extract selected features" name="component_description" type="QString"/>
+      <Option value="233.60000000000002" name="component_pos_x" type="double"/>
+      <Option value="171.20000000000005" name="component_pos_y" type="double"/>
+      <Option name="dependencies"/>
+      <Option value="native:saveselectedfeatures_1" name="id" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Export" type="Map">
+          <Option value="native:saveselectedfeatures_1" name="child_id" type="QString"/>
+          <Option value="Export" name="component_description" type="QString"/>
+          <Option value="408.8" name="component_pos_x" type="double"/>
+          <Option value="285" name="component_pos_y" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option value="false" name="mandatory" type="bool"/>
+          <Option value="Export" name="name" type="QString"/>
+          <Option value="OUTPUT" name="output_name" type="QString"/>
+        </Option>
+      </Option>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option value="layertoextract" name="parameter_name" type="QString"/>
+            <Option value="0" name="source" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help" type="Map">
+    <Option value="" name="ALG_DESC" type="QString"/>
+    <Option value="This is the layer that you want to extract selected features from" name="layertoextract" type="QString"/>
+  </Option>
+  <Option name="modelVariables"/>
+  <Option value="FOSS4G" name="model_group" type="QString"/>
+  <Option value="Export Selected Features" name="model_name" type="QString"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="layertoextract" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="-1" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option value="Layer to extract" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option name="metadata"/>
+      <Option value="layertoextract" name="name" type="QString"/>
+      <Option value="vector" name="parameter_type" type="QString"/>
+    </Option>
+    <Option name="native:saveselectedfeatures_1:Export" type="Map">
+      <Option value="true" name="create_by_default" type="bool"/>
+      <Option value="-1" name="data_type" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option value="Export" name="description" type="QString"/>
+      <Option value="0" name="flags" type="int"/>
+      <Option name="metadata"/>
+      <Option value="native:saveselectedfeatures_1:Export" name="name" type="QString"/>
+      <Option value="sink" name="parameter_type" type="QString"/>
+      <Option value="true" name="supports_non_file_outputs" type="bool"/>
+    </Option>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="layertoextract" type="Map">
+      <Option value="layertoextract" name="component_description" type="QString"/>
+      <Option value="120" name="component_pos_x" type="double"/>
+      <Option value="60" name="component_pos_y" type="double"/>
+      <Option value="layertoextract" name="name" type="QString"/>
+    </Option>
+  </Option>
+</Option>
